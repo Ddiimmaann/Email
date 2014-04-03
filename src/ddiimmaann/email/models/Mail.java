@@ -8,7 +8,7 @@ public class Mail
     private String to;
     private String title = "No theme";
     private String message = "";
-    private String[] attachments;
+    private String[] attachments = null;
     private Date date;
     private boolean isSeen = false;
     private int numberOfMessage;

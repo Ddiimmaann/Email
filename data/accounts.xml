@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<accounts>
+    <account fullName="ddiimmaann2@yandex.ru">
+        <password>0577163</password>
+        <nickname>ddiimmaann2</nickname>
+        <fullReallyName>ddiimmaann2@yandex.ru</fullReallyName>
+        <hostNameSMTP>smtp.yandex.ru</hostNameSMTP>
+        <hostNameIMAP>imap.yandex.ru</hostNameIMAP>
+    </account>
+    <account fullName="ddiimmaann@yandex.ru">
+        <password>neverhood</password>
+        <nickname>ddiimmaann</nickname>
+        <fullReallyName>ddiimmaann@yandex.ru</fullReallyName>
+        <hostNameSMTP>smtp.yandex.ru</hostNameSMTP>
+        <hostNameIMAP>imap.yandex.ru</hostNameIMAP>
+    </account>
+</accounts>

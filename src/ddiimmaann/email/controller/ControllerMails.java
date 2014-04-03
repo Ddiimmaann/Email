@@ -366,9 +366,10 @@ public class ControllerMails
             throw new InvalidDatumException("Mail with number " + num + " isn't exist.");
         Date dateMailNum = acc.getMails().getInMails().get(num).getDate();
         mailWithNum.add(mailToString(acc.getMails().getInMails().get(num), true));
-        if (acc.getMails().getInMails().get(num).getAttachments() == null)
+        if (acc.getMails().getInMails().get(num).getAttachments() == null ||
+                acc.getMails().getInMails().get(num).getAttachments().length == 0)
             return mailWithNum;
-        
+     
         if (dir == null)
             dir = "C:";
         dir += File.separator;
